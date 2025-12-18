@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <link rel="stylesheet" href="style/style-js.css">
+    <link rel="stylesheet" href="flexslider2/flexslider.css">
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Карточка товара</title>
+    
+</head>
+<body>
+    <header>
+        <div class="headcont">
+            <img class="logo" src="image/logo.png" alt="logo">
+
+                <h1>Цветочный дом</h1>
+                <p class="adress">+7(812)598-85-85 <br>ул.Савировская 37Д</p>
+
+            <nav>
+            <div class="header-rec">
+            <a href="katalog.html">Каталог</a>
+            <a >Контакты</a>
+            <a href="info.html">Доставка и оплата</a>
+            <a >Полезные статьи</a>
+
+            <img class="korzina" src="image/korzina.png" alt="korzina">
+            </div>
+            </nav>
+        </div>
+        
+    </header>
+    <main>
+        <div class="main-container">
+        <div class="product-layout">
+
+
+            <div class="slider-area">
+                <div class="flexslider">
+                    <ul class="slides">
+                        <li>
+                            <img src="image/azal.png" alt="Азалия вид 1">
+                        </li>
+                        <li>
+                            <img src="image/azal2.png" alt="Азалия вид 2">
+                        </li>
+                        <li>
+                            <img src="image/azal3.png" alt="Азалия вид 3">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="info-area">
+
+                <h3>Азалия</h3>
+                
+                <p class="specs">
+                    Высота растения 25 см, диаметр горшка 12 см – 1 600 руб
+                </p>
+
+                <div class="description">
+                    <p>Обратите внимание:</p>
+                    <p>фото растения носит информационных характер, растения все немного отличаются друг от друга в силу своей природы.</p>
+                    <p>если на фото растение цветущее или с плодами, Вам поставляется аналогичный товар, если иной не оговорен с менеджером</p>
+                    <p>высота растения указана вместе с горшком (кашпо)</p>
+                    <p>диаметр горшка указан в самой широкой части</p>
+                </div>
+
+                <div class="footer-controls">
+                    <span class="price-main">1600 руб.</span>
+                    <button class="add-to-cart-button">В корзину</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+
+
+    <script src="flexslider2/jquery.flexslider-min.js"></script>
+
+    <script type="text/javascript">
+        $(window).load(function() {
+          $('.flexslider').flexslider({
+            animation: "slide", 
+            controlNav: true, 
+            directionNav: true, 
+            slideshow: true, 
+            slideshowSpeed: 5000, 
+            animationSpeed: 600, 
+            itemWidth: 800, 
+            itemMargin: 0, 
+            move: 1 
+            
+          });
+        });
+    </script>
+    <h2>Дополнительные товары</h2>
+        <div class="tovars">
+            <div class="tovar-card">
+                <img class="image-card" src="image/d1.png" alt="Фото товара">
+                <p class="name">Удобрение</p>
+                <div class="price-button">
+                    <p class="price">700 р</p>
+                    <p class="button">В корзину</p>
+                </div>
+            </div>
+            <div class="tovar-card">
+                <img class="image-card" src="image/d2.png" alt="Фото товара">
+                <p class="name">Горшок</p>
+                <div class="price-button">
+                    <p class="price">1000 р</p>
+                    <p class="button">В корзину</p>
+                </div>
+            </div>
+            <div class="tovar-card">
+                <img class="image-card" src="image/d3.png" alt="Фото товара">
+                <p class="name">Лопатка</p>
+                <div class="price-button">
+                    <p class="price">300 р</p>
+                    <p class="button">В корзину</p>
+                </div>
+            </div>
+            <div class="tovar-card">
+                <img class="image-card" src="image/d4.png" alt="Фото товара">
+                <p class="name">Лейка</p>
+                <div class="price-button">
+                    <p class="price">700 р</p>
+                    <p class="button">В корзину</p>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+    <footer>
+        <div class="fotcont">
+            <div class="f1">
+                <h2>Контакты</h2>
+                <p>+7(812)598-85-85 <br>sales@tcvdom.ru <br> ул.Савировская 37Д</p>
+                <h2>Режим работы</h2>
+                <p>Розничный магазин: 10:00-22:00<br>Офис продаж: пн-пт 9:00-18:00</p>
+            </div>            
+            <div class="f2">
+                <ul id="linkFoot">
+                <li ><a href="katalog.html">Каталог</a></li>
+                <li ><a>Контакты</a></li>
+                <li ><a href="info.html">Доставка и оплата</a></li>
+                <li ><a>Полезные статьи</a></li>
+                </ul>
+                <p class="copyright">&copy; Все права защищены</p>
+            </div>
+        </div>
+
+    </footer>
+<!-- jQuery -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js"/script>')</script>
+<!-- FlexSlider -->
+<script defer src="flexslider2/jquery.flexslider.js"></script>
+<script type="text/jаvascript">
+    $(window).load(function(){
+        $('.flexslider').flexslider({
+            animation: "slide",
+            start: function(slider){
+                $('body').removeClass('loading');
+            }
+        });
+    });
+</script>
+</body>
+</html>

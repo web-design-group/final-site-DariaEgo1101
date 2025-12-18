@@ -1,0 +1,229 @@
+body{
+font-family: "Roboto", sans-serif;
+
+margin: 0;
+padding: 0;
+background-color: #F8F4ED;
+color: #303A32;
+
+}
+a{
+    text-decoration: none;
+
+}
+
+
+header{
+    display: flex;
+    max-width: 71%;
+    margin: 0 auto;
+}
+
+.headcont{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin-top: 30px;
+    align-self: center;
+    justify-self:center;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+
+    justify-content: flex-start;
+
+    border-radius: 4px;
+}
+header a{
+    padding: 2%;
+    display: flex;
+    cursor: pointer;
+    text-decoration: none;
+    color: #F8F4ED;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+
+}
+
+header a:hover{
+color: #FFFAF2;
+
+}
+header a:active{
+    color: #FFFAF280;
+}
+nav{
+    display: flex;
+    margin-left: 12%;
+    width: 100%;
+
+
+}
+.header-rec{
+    display: flex;
+    justify-content: space-between; 
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: #929C81;
+    border-radius: 4px;
+}
+
+header h1{
+margin-left: 8%;
+margin-top: 0px;
+max-width: 100%;
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 75px;
+color: #303A32;
+}
+
+.adress{
+margin-top: 0px;
+margin-left:  30%;
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 33px;
+display: flex;
+align-items: center;
+
+color: #303A32;
+}
+
+.korzina{
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+
+    border-radius: 4px;
+}
+/* Основная часть */ 
+main{
+    max-width: 1360px;
+    margin: 0 auto;
+}
+.custom-container {
+
+    box-sizing: border-box;
+    max-width: 1920px; 
+    width: 100%;
+    margin: 0 auto; 
+}
+
+/* Стилизация блоков контента */
+.content-block {
+    padding: 50px 20px; 
+
+}
+
+/* Стилизация заголовков */
+.content-block h2 {
+    font-size: 36px; 
+    font-weight: 700; 
+    color: #303A32;
+    margin-bottom: 25px; 
+}
+
+/* Стилизация параграфов */
+.content-block p {
+    font-size: 24px; /* Размер текста */
+
+}
+
+/* Выделение жирным шрифтом для цен и ключевых фраз */
+.content-block p:first-child,
+.content-block p:nth-child(2),
+.content-block p:nth-child(3) { 
+    font-weight: 500; 
+}
+.content-block p:nth-child(4) { 
+    font-weight: 500;
+}
+.content-block p:nth-child(5) { 
+    font-weight: 400;
+}
+
+
+
+/* Футер */
+footer{
+    display: flex;
+    flex-direction: column;
+    padding-top: 55px;
+    background-color: #E2B797;
+    color: #303A32;
+    bottom: 0; 
+    max-width: 100%;
+    height: 500px;
+}
+
+footer a:visited{
+    color: #303A32;
+}
+#linkFoot{
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    cursor: pointer;
+    color: #303A32;
+    text-decoration: none;
+    
+}
+.f2 a:hover{
+    color: #48574B;
+}
+.f2 a:active{
+    color: #48574B80; /*прозрачность 50%*/
+
+}
+footer p{
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+
+
+}
+footer h2{
+    padding-top: 0px;
+    margin: 0;
+    font-style: normal;
+font-weight: 500;
+font-size: 40px;
+
+}
+.fotcont{
+    display: flex;
+
+}
+.f1{
+    padding-left: 15%;
+    flex: 1;
+    width: 50%;
+    float: left;
+
+
+}
+.f2{
+
+    flex: 1;
+    width: 50%;
+    float: left;
+
+}
+.copyright{
+    padding-top: 111px;
+}
+li{
+    list-style-type: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
